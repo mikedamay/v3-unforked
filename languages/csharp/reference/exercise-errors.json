@@ -2,17 +2,17 @@
   "Errors": [
     {
       "Severity": "error",
-      "Message": "many_designs.md: invalid format: - \u0060nested-types\u0060",
+      "Message": "nested-types: invalid format: - \u0060nested-types\u0060",
       "Source": "design"
     },
     {
       "Severity": "error",
-      "Message": "many_designs.md: invalid format: - \u0060regular-expressions\u0060 as they are handled in C# and .NET.",
+      "Message": "regular-expressions: invalid format: - \u0060regular-expressions\u0060 as they are handled in C# and .NET.",
       "Source": "design"
     },
     {
       "Severity": "error",
-      "Message": "many_designs.md: invalid format: - \u0060resource-lifetime\u0060 as it is handled in C#.",
+      "Message": "resource-lifetime: invalid format: - \u0060resource-lifetime\u0060 as it is handled in C#.",
       "Source": "design"
     }
   ]

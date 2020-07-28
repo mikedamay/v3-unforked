@@ -5,199 +5,207 @@
 The C# concept exercises are based on concepts. The list below contains the concepts that have been identified for the C# language.
 
 _(Please do not modify this document. it is automatically generated. All text except the concept learning objectives is sourced
-from [exercises.json](./exercises.json) which should be updated manually when a concept is added or an issue or new design is created
-and learning objectives are scraped from the concept definition text in each exercise's design.md document)_.
+                            from [exercises.json](./exercises.json) which should be updated manually when a concept is added or an issue or new design is created
+                            and learning objectives are scraped from the concept definition text in each exercise's design.md document)_.
 
 ### Introductory Concepts
 
-- arrays _(arrays)_ - [Design][design-arrays], [background][tnc-arrays]
-- assignment _(numbers)_ - [Design][design-numbers]
-- base-class-library _(dictionaries)_ - [Design][design-dictionaries]
-- basics _(basics)_ - [Design][design-basics]
-- booleans _(booleans)_ - [Design][design-booleans], [background][tnc-booleans]
-- booleans _(booleans)_ - [Design][design-booleans]
-- casting _(casting)_ - [Issue][issue-casting]
-- chars _(chars)_ - [Design][design-chars], [background][tnc-chars]
-- classes _(classes)_ - [Design][design-classes], [background][tnc-classes]
-- collections _(lists)_ - [Issue][issue-lists]
-- comments _(basics)_ - [Design][design-basics]
-- conditionals _(numbers)_ - [Design][design-numbers]
-- conditionals-switch _(conditionals-switch)_ - [Design][design-conditionals-switch]
-- conditionals-ternary _(conditionals-ternary)_ - [Issue][issue-conditionals-ternary], [background][tnc-conditionals-ternary]
-- conditionals-while _(floating-point-numbers)_ - [Design][design-floating-point-numbers]
-- constants _(constants)_ - [Issue][issue-constants]
-- constructors _(constructors)_ - [Design][design-constructors]
-- cross-platform _(time)_ - [Design][design-time]
-- dates _(dates)_ - [Design][design-dates]
-- default-value _(classes)_ - [Design][design-classes]
-- dictionaries _(dictionaries)_ - [Design][design-dictionaries], [background][tnc-dictionaries]
-- encapsulation _(classes)_ - [Design][design-classes], [background][tnc-encapsulation]
-- enums _(enums)_ - [Design][design-enums]
-- equality _(equality)_ - [Design][design-equality], [background][tnc-equality]
-- exceptions _(exceptions)_ - [Issue][issue-exceptions]
-- explicit-interfaces _(interfaces)_ - [Issue][issue-interfaces]
-- expression-bodied-members _(expression-bodied-members)_ - [Issue][issue-expression-bodied-members]
-- fields _(classes)_ - [Design][design-classes]
-- flag-enums _(flag-enums)_ - [Design][design-flag-enums]
-- floating-point-numbers _(floating-point-numbers)_ - [Design][design-floating-point-numbers]
-- for-loops _(arrays)_ - [Design][design-arrays], [background][tnc-for-loops]
-- foreach-loops _(arrays)_ - [Design][design-arrays], [background][tnc-foreach-loops]
-- formatting-types _(string-formatting)_ - [Issue][issue-string-formatting]
-- functions _(basics)_ - [Design][design-basics], [background][tnc-functions]
-- implicit-casting _(casting)_ - [Issue][issue-casting]
-- imports _(namespaces)_ - [Issue][issue-namespaces]
-- inheritance _(inheritance)_ - [Design][design-inheritance], [background][tnc-inheritance]
-- interfaces _(interfaces)_ - [Issue][issue-interfaces], [background][tnc-interfaces]
-- interpolation _(string-formatting)_ - [Issue][issue-string-formatting]
-- lists _(lists)_ - [Issue][issue-lists], [background][tnc-lists]
-- marker-interfaces _(equality)_ - [Design][design-equality]
-- math-operators _(numbers)_ - [Design][design-numbers]
-- method-overloading _(method-overloading)_ - [Design][design-method-overloading]
-- mutation _(basics)_ - [Design][design-basics], [background][tnc-mutation]
-- named-arguments _(parameters)_ - [Design][design-parameters]
-- namespaces _(namespaces)_ - [Issue][issue-namespaces]
-- nested-types _(nested-types)_ - [Issue][issue-nested-types]
-- null _(null)_ - [Design][design-null]
-- null-coalescing _(null)_ - [Design][design-null]
-- null-conditional _(null)_ - [Design][design-null]
-- null-forgiving _(null)_ - [Design][design-null]
-- nullable-values _(null)_ - [Design][design-null]
-- numbers _(numbers)_ - [Design][design-numbers]
-- numbers _(numbers)_ - [Design][design-numbers]
-- object-initializers _(object-initializers)_ - [Design][design-object-initializers]
-- objects _(classes)_ - [Design][design-classes], [background][tnc-objects]
-- operator-overload _(operator-overload)_ - [Issue][issue-operator-overload]
-- optional-arguments _(parameters)_ - [Design][design-parameters], [background][tnc-optional-arguments]
-- out-parameters _(parameters)_ - [Design][design-parameters]
-- overflow _(overflow)_ - [Issue][issue-overflow]
-- parameters _(parameters)_ - [Design][design-parameters]
-- polymorphism _(inheritance)_ - [Design][design-inheritance], [background][tnc-polymorphism]
-- properties _(properties)_ - [Design][design-properties]
-- randomness _(randomness)_ - [Design][design-randomness]
-- regular-expressions _(regular-expressions)_ - [Issue][issue-regular-expressions]
-- resource-cleanup _(resource-cleanup)_ - [Design][design-resource-cleanup]
-- resource-lifetime _(resource-lifetime)_ - [Issue][issue-resource-lifetime]
-- return-values _(basics)_ - [Design][design-basics]
-- scoping _(basics)_ - [Design][design-basics]
-- sets _(equality)_ - [Design][design-equality], [background][tnc-sets]
-- signed-integers _(signed-integers)_ - [Issue][issue-signed-integers]
-- state _(classes)_ - [Design][design-classes], [background][tnc-state]
-- string-builder _(string-formatting)_ - [Issue][issue-string-formatting]
-- string-formatting _(string-formatting)_ - [Issue][issue-string-formatting]
-- strings _(strings)_ - [Design][design-strings], [background][tnc-strings]
-- structs _(structs)_ - [Issue][issue-structs]
-- time _(time)_ - [Design][design-time]
-- tuples _(tuples)_ - [Design][design-tuples], [background][tnc-tuples]
-- type-inference _(basics)_ - [Design][design-basics], [background][tnc-type-inference]
-- unsigned-integers _(signed-integers)_ - [Issue][issue-signed-integers]
-- user-defined-exceptions _(user-defined-exceptions)_ - [Design][design-user-defined-exceptions]
-- user-defined-exceptions2 _(user-defined-exceptions2)_ - [Design][design-user-defined-exceptions2]
-- variables _(basics)_ - [Design][design-basics], [background][tnc-variables]
-- verbatim-strings _(string-formatting)_ - [Issue][issue-string-formatting]
-- visibility _(classes)_ - [Design][design-classes]
+- arrays [_(arrays)_][exercise-arrays] - [Design][design-arrays], [Background][tnc-arrays]
+- assignment [_(numbers)_][exercise-numbers] - [Design][design-numbers]
+- base-class-library [_(dictionaries)_][exercise-dictionaries] - [Design][design-dictionaries]
+- basics [_(basics)_][exercise-basics] - [Design][design-basics]
+- booleans [_(booleans)_][exercise-booleans] - [Design][design-booleans], [Background][tnc-booleans]
+- booleans [_(booleans)_][exercise-booleans] - [Design][design-booleans]
+- casting [_(casting)_][exercise-casting] - [Issue][issue-casting]
+- chars [_(chars)_][exercise-chars] - [Design][design-chars], [Background][tnc-chars]
+- classes [_(classes)_][exercise-classes] - [Design][design-classes], [Background][tnc-classes]
+- collections [_(lists)_][exercise-lists] - [Issue][issue-lists]
+- comments [_(basics)_][exercise-basics] - [Design][design-basics]
+- conditionals [_(numbers)_][exercise-numbers] - [Design][design-numbers]
+- conditionals-switch [_(conditionals-switch)_][exercise-conditionals-switch] - [Design][design-conditionals-switch]
+- conditionals-ternary [_(conditionals-ternary)_][exercise-conditionals-ternary] - [Issue][issue-conditionals-ternary], [Background][tnc-conditionals-ternary]
+- conditionals-while [_(floating-point-numbers)_][exercise-floating-point-numbers] - [Design][design-floating-point-numbers]
+- constants [_(constants)_][exercise-constants] - [Issue][issue-constants]
+- constructors [_(constructors)_][exercise-constructors] - [Design][design-constructors]
+- cross-platform [_(time)_][exercise-time] - [Design][design-time]
+- dates [_(dates)_][exercise-dates] - [Design][design-dates]
+- default-value [_(classes)_][exercise-classes] - [Design][design-classes]
+- dictionaries [_(dictionaries)_][exercise-dictionaries] - [Design][design-dictionaries], [Background][tnc-dictionaries]
+- encapsulation [_(classes)_][exercise-classes] - [Design][design-classes], [Background][tnc-encapsulation]
+- enums [_(enums)_][exercise-enums] - [Design][design-enums]
+- equality [_(equality)_][exercise-equality] - [Design][design-equality], [Background][tnc-equality]
+- exceptions [_(exceptions)_][exercise-exceptions] - [Issue][issue-exceptions]
+- explicit-interfaces [_(interfaces)_][exercise-interfaces] - [Issue][issue-interfaces]
+- expression-bodied-members [_(expression-bodied-members)_][exercise-expression-bodied-members] - [Issue][issue-expression-bodied-members]
+- fields [_(classes)_][exercise-classes] - [Design][design-classes]
+- flag-enums [_(flag-enums)_][exercise-flag-enums] - [Design][design-flag-enums]
+- floating-point-numbers [_(floating-point-numbers)_][exercise-floating-point-numbers] - [Design][design-floating-point-numbers]
+- for-loops [_(arrays)_][exercise-arrays] - [Design][design-arrays], [Background][tnc-for-loops]
+- foreach-loops [_(arrays)_][exercise-arrays] - [Design][design-arrays], [Background][tnc-foreach-loops]
+- formatting-types [_(string-formatting)_][exercise-string-formatting] - [Issue][issue-string-formatting]
+- functions [_(basics)_][exercise-basics] - [Design][design-basics], [Background][tnc-functions]
+- implicit-casting [_(casting)_][exercise-casting] - [Issue][issue-casting]
+- imports [_(namespaces)_][exercise-namespaces] - [Issue][issue-namespaces]
+- inheritance [_(inheritance)_][exercise-inheritance] - [Design][design-inheritance], [Background][tnc-inheritance]
+- interfaces [_(interfaces)_][exercise-interfaces] - [Issue][issue-interfaces], [Background][tnc-interfaces]
+- interpolation [_(string-formatting)_][exercise-string-formatting] - [Issue][issue-string-formatting]
+- lists [_(lists)_][exercise-lists] - [Issue][issue-lists], [Background][tnc-lists]
+- marker-interfaces [_(equality)_][exercise-equality] - [Design][design-equality]
+- math-operators [_(numbers)_][exercise-numbers] - [Design][design-numbers]
+- method-overloading [_(method-overloading)_][exercise-method-overloading] - [Design][design-method-overloading]
+- mutation [_(basics)_][exercise-basics] - [Design][design-basics], [Background][tnc-mutation]
+- named-arguments [_(parameters)_][exercise-parameters] - [Design][design-parameters]
+- namespaces [_(namespaces)_][exercise-namespaces] - [Issue][issue-namespaces]
+- nested-types [_(nested-types)_][exercise-nested-types] - [Issue][issue-nested-types]
+- null [_(null)_][exercise-null] - [Design][design-null]
+- null-coalescing [_(null)_][exercise-null] - [Design][design-null]
+- null-conditional [_(null)_][exercise-null] - [Design][design-null]
+- null-forgiving [_(null)_][exercise-null] - [Design][design-null]
+- nullable-values [_(null)_][exercise-null] - [Design][design-null]
+- numbers [_(numbers)_][exercise-numbers] - [Design][design-numbers]
+- numbers [_(numbers)_][exercise-numbers] - [Design][design-numbers]
+- object-initializers [_(object-initializers)_][exercise-object-initializers] - [Design][design-object-initializers]
+- objects [_(classes)_][exercise-classes] - [Design][design-classes], [Background][tnc-objects]
+- operator-overload [_(operator-overload)_][exercise-operator-overload] - [Issue][issue-operator-overload]
+- optional-arguments [_(parameters)_][exercise-parameters] - [Design][design-parameters], [Background][tnc-optional-arguments]
+- out-parameters [_(parameters)_][exercise-parameters] - [Design][design-parameters]
+- overflow [_(overflow)_][exercise-overflow] - [Issue][issue-overflow]
+- parameters [_(parameters)_][exercise-parameters] - [Design][design-parameters]
+- polymorphism [_(inheritance)_][exercise-inheritance] - [Design][design-inheritance], [Background][tnc-polymorphism]
+- properties [_(properties)_][exercise-properties] - [Design][design-properties]
+- randomness [_(randomness)_][exercise-randomness] - [Design][design-randomness]
+- regular-expressions [_(regular-expressions)_][exercise-regular-expressions] - [Issue][issue-regular-expressions]
+- resource-cleanup [_(resource-cleanup)_][exercise-resource-cleanup] - [Design][design-resource-cleanup]
+- resource-lifetime [_(resource-lifetime)_][exercise-resource-lifetime] - [Issue][issue-resource-lifetime]
+- return-values [_(basics)_][exercise-basics] - [Design][design-basics]
+- scoping [_(basics)_][exercise-basics] - [Design][design-basics]
+- sets [_(equality)_][exercise-equality] - [Design][design-equality], [Background][tnc-sets]
+- signed-integers [_(signed-integers)_][exercise-signed-integers] - [Issue][issue-signed-integers]
+- state [_(classes)_][exercise-classes] - [Design][design-classes], [Background][tnc-state]
+- string-builder [_(string-formatting)_][exercise-string-formatting] - [Issue][issue-string-formatting]
+- string-formatting [_(string-formatting)_][exercise-string-formatting] - [Issue][issue-string-formatting]
+- strings [_(strings)_][exercise-strings] - [Design][design-strings], [Background][tnc-strings]
+- structs [_(structs)_][exercise-structs] - [Issue][issue-structs]
+- time [_(time)_][exercise-time] - [Design][design-time]
+- tuples [_(tuples)_][exercise-tuples] - [Design][design-tuples], [Background][tnc-tuples]
+- type-inference [_(basics)_][exercise-basics] - [Design][design-basics], [Background][tnc-type-inference]
+- unsigned-integers [_(signed-integers)_][exercise-signed-integers] - [Issue][issue-signed-integers]
+- user-defined-exceptions [_(user-defined-exceptions)_][exercise-user-defined-exceptions] - [Design][design-user-defined-exceptions]
+- user-defined-exceptions2 [_(user-defined-exceptions2)_][exercise-user-defined-exceptions2] - [Design][design-user-defined-exceptions2]
+- variables [_(basics)_][exercise-basics] - [Design][design-basics], [Background][tnc-variables]
+- verbatim-strings [_(string-formatting)_][exercise-string-formatting] - [Issue][issue-string-formatting]
+- visibility [_(classes)_][exercise-classes] - [Design][design-classes]
 
 ### Essential Concepts
 
-- anonymous-types _(anonymous-types)_
-- async _(async)_
-- attributes-advanced _(attributes-advanced)_ - [Issue][issue-attributes-advanced]
-- collections-combining _(linq)_
-- collections-filtering _(linq)_
-- collections-mapping _(linq)_
-- collections-ordering _(linq)_
-- collections-reduciing _(linq)_
-- contravariance _(contravariance)_
-- covariance _(covariance)_
-- delegates _(delegates)_
-- enumerables _(enumerables)_
-- events _(events)_
-- extension-methods _(extension-methods)_ - [Issue][issue-extension-methods]
-- generics-advanced _(generics-advanced)_
-- higherl-order-functions _(higherl-order-functions)_ - [background][tnc-higherl-order-functions]
-- indexers _(indexers)_
-- lambdas _(lambdas)_ - [background][tnc-lambdas]
-- linq _(linq)_ - [background][tnc-linq]
-- linq-advanced _(linq-advanced)_
-- linq-query-syntax _(linq-query-syntax)_
-- linq-select-many _(linq-select-many)_
-- locks _(locks)_
-- pattern-matching-tuples _(pattern-matching-tuples)_ - [Issue][issue-pattern-matching-tuples]
-- pattern-matching-types _(pattern-matching-types)_ - [Issue][issue-pattern-matching-types]
-- recursion _(recursion)_ - [background][tnc-recursion]
-- reflection _(reflection)_
-- serialization _(serialization)_
-- statics _(statics)_
-- streams _(streams)_
-- tasks _(tasks)_
-- thread-safety _(thread-safety)_
-- yield _(yield)_
+- anonymous-types [_(anonymous-types)_][exercise-anonymous-types]
+- async [_(async)_][exercise-async]
+- attributes-advanced [_(attributes-advanced)_][exercise-attributes-advanced] - [Issue][issue-attributes-advanced]
+- collections-combining [_(linq)_][exercise-linq]
+- collections-filtering [_(linq)_][exercise-linq]
+- collections-mapping [_(linq)_][exercise-linq]
+- collections-ordering [_(linq)_][exercise-linq]
+- collections-reduciing [_(linq)_][exercise-linq]
+- contravariance [_(contravariance)_][exercise-contravariance]
+- covariance [_(covariance)_][exercise-covariance]
+- delegates [_(delegates)_][exercise-delegates]
+- enumerables [_(enumerables)_][exercise-enumerables]
+- events [_(events)_][exercise-events]
+- extension-methods [_(extension-methods)_][exercise-extension-methods] - [Issue][issue-extension-methods]
+- generics-advanced [_(generics-advanced)_][exercise-generics-advanced]
+- higherl-order-functions [_(higherl-order-functions)_][exercise-higherl-order-functions] - [Background][tnc-higherl-order-functions]
+- indexers [_(indexers)_][exercise-indexers]
+- lambdas [_(lambdas)_][exercise-lambdas] - [Background][tnc-lambdas]
+- linq [_(linq)_][exercise-linq] - [Background][tnc-linq]
+- linq-advanced [_(linq-advanced)_][exercise-linq-advanced]
+- linq-query-syntax [_(linq-query-syntax)_][exercise-linq-query-syntax]
+- linq-select-many [_(linq-select-many)_][exercise-linq-select-many]
+- locks [_(locks)_][exercise-locks]
+- pattern-matching-tuples [_(pattern-matching-tuples)_][exercise-pattern-matching-tuples] - [Issue][issue-pattern-matching-tuples]
+- pattern-matching-types [_(pattern-matching-types)_][exercise-pattern-matching-types] - [Issue][issue-pattern-matching-types]
+- recursion [_(recursion)_][exercise-recursion] - [Background][tnc-recursion]
+- reflection [_(reflection)_][exercise-reflection]
+- serialization [_(serialization)_][exercise-serialization]
+- statics [_(statics)_][exercise-statics]
+- streams [_(streams)_][exercise-streams]
+- tasks [_(tasks)_][exercise-tasks]
+- thread-safety [_(thread-safety)_][exercise-thread-safety]
+- yield [_(yield)_][exercise-yield]
 
 ### Advanced Concepts
 
-- aysnc-iterators _(aysnc-iterators)_
-- boxing _(boxing)_
-- by-ref _(by-ref)_
-- destructors _(destructors)_
-- dispose-pattern _(dispose-pattern)_
-- dynamic _(dynamic)_
-- immutability _(immutability)_ - [background][tnc-immutability]
-- immutable-collections _(immutable-collections)_
-- lazy<T> _(lazy<T>)_
-- local-functions _(local-functions)_ - [background][tnc-local-functions]
-- memory-allocation _(memory-allocation)_ - [Issue][issue-memory-allocation], [background][tnc-memory-allocation]
-- multi-dimensional-array _(multi-dimensional-array)_
-- pointsers _(pointsers)_ - [Issue][issue-pointsers]
-- queues _(queues)_ - [background][tnc-queues]
-- ranges _(ranges)_ - [background][tnc-ranges]
-- ref-local _(ref-local)_
-- resource-pooling _(resource-pooling)_ - [Issue][issue-resource-pooling]
-- slicing _(slicing)_
-- stacks _(stacks)_ - [background][tnc-stacks]
-- time-zones _(time-zones)_
-- unsafe-code _(unsafe-code)_
+- aysnc-iterators [_(aysnc-iterators)_][exercise-aysnc-iterators]
+- boxing [_(boxing)_][exercise-boxing]
+- by-ref [_(by-ref)_][exercise-by-ref]
+- destructors [_(destructors)_][exercise-destructors]
+- dispose-pattern [_(dispose-pattern)_][exercise-dispose-pattern]
+- dynamic [_(dynamic)_][exercise-dynamic]
+- immutability [_(immutability)_][exercise-immutability] - [Background][tnc-immutability]
+- immutable-collections [_(immutable-collections)_][exercise-immutable-collections]
+- lazy<T> [_(lazy<T>)_][exercise-lazy<T>]
+- local-functions [_(local-functions)_][exercise-local-functions] - [Background][tnc-local-functions]
+- memory-allocation [_(memory-allocation)_][exercise-memory-allocation] - [Issue][issue-memory-allocation], [Background][tnc-memory-allocation]
+- multi-dimensional-array [_(multi-dimensional-array)_][exercise-multi-dimensional-array]
+- pointsers [_(pointsers)_][exercise-pointsers] - [Issue][issue-pointsers]
+- queues [_(queues)_][exercise-queues] - [Background][tnc-queues]
+- ranges [_(ranges)_][exercise-ranges] - [Background][tnc-ranges]
+- ref-local [_(ref-local)_][exercise-ref-local]
+- resource-pooling [_(resource-pooling)_][exercise-resource-pooling] - [Issue][issue-resource-pooling]
+- slicing [_(slicing)_][exercise-slicing]
+- stacks [_(stacks)_][exercise-stacks] - [Background][tnc-stacks]
+- time-zones [_(time-zones)_][exercise-time-zones]
+- unsafe-code [_(unsafe-code)_][exercise-unsafe-code]
+
+### Unallocated Concepts
+
+- bitwise-manipulation [_(unallocated-concepts)_][exercise-unallocated-concepts]
+- conditionals-do-while [_(unallocated-concepts)_][exercise-unallocated-concepts]
+- conditionals-if [_(unallocated-concepts)_][exercise-unallocated-concepts] - [Background][tnc-conditionals-if]
+- generics-introduction [_(unallocated-concepts)_][exercise-unallocated-concepts]
+- ordering [_(unallocated-concepts)_][exercise-unallocated-concepts]
 
 ## Learning Objectives
 
-| Concept                   | Learning Objectives                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `arrays`                  | know of the existence of the `Array` type; know how to define an array; know how to access elements in an array by index; know how to update an element in an array by index; know how to iterate over elements in an array; know of some basic functions (like finding the index of an element in an array).;know of the existence of the `Array` type; know how to define an array; know how to access elements in an array by index; know how to update an element in an array by index; know how to iterate over elements in an array; know of some basic functions (like finding the index of an element in an array).                                                                                                                                                                                                                                                                                                                                                                                 |
-| `basics`                  | know what a variable is; know how to define a variable; know how to update a variable; know how to use type inference for variables; know how to define a method; know how to return a value from a method; know how to call a method; know that methods must be defined in classes; know about the `public` access modifier; know about the `static` modifier; know how to define an integer; know how to use mathematical operators on integers; know how to define single- and multiline comments.;know what a variable is; know how to define a variable; know how to update a variable; know how to use type inference for variables; know how to define a method; know how to return a value from a method; know how to call a method; know that methods must be defined in classes; know about the `public` access modifier; know about the `static` modifier; know how to define an integer; know how to use mathematical operators on integers; know how to define single- and multiline comments. |
-| `booleans`                | know of the existence of the `bool` type and its two values; know about boolean operators and how to build logical expressions with them; know of the boolean operator precedence rules.;know of the existence of the `bool` type and its two values; know about boolean operators and how to build logical expressions with them; know of the boolean operator precedence rules.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| `booleans`                | know of the existence of the `bool` type and its two values; know about boolean operators and how to build logical expressions with them; know of the boolean operator precedence rules.;know of the existence of the `bool` type and its two values; know about boolean operators and how to build logical expressions with them; know of the boolean operator precedence rules.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| `casting`                 | know what explicit and implicit casts are; know how to do an explicit cast; know how to use `is` and `as` to convert between types.;know what explicit and implicit casts are; know how to do an explicit cast; know how to use `is` and `as` to convert between types.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| `chars`                   | know of the existence of the `char` type; know that a `char` represents; know how to define a `char`; know how to access a `char` in a string by index; know of some basic `char` methods (like converting to uppercase).;know of the existence of the `char` type; know that a `char` represents; know how to define a `char`; know how to access a `char` in a string by index; know of some basic `char` methods (like converting to uppercase).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| `classes`                 | know what classes are; know what encapsulation is; know what fields are; know how to create an object; know how to update state through methods; know about the `void` type.;know what classes are; know what encapsulation is; know what fields are; know how to create an object; know how to update state through methods; know about the `void` type.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| `conditionals`            | know how to conditionally execute code using an `if` statement.;know how to conditionally execute code using an `if` statement.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| `constructors`            | know what constructors are; know how to define parameterless constructors; know how to define parameterized constructors; know how to use constructor overloading; know how to define private constructors.;know what constructors are; know how to define parameterless constructors; know how to define parameterized constructors; know how to use constructor overloading; know how to define private constructors.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| `cross-platform`          | know how to have different code paths (selected at run-time) for Linux, Windows and Mac;know how to have different code paths (selected at run-time) for Linux, Windows and Mac                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| `dictionaries`            | know of the existence of the `Dictionary<TKey, TElement>` type; know how to define a dictionary; know how to add and updated elements in a dictionary; know how to access elements in a dictionary by key; know how to iterate over elements in a dictionary; know some basic dictionary functions.;know of the existence of the `Dictionary<TKey, TElement>` type; know how to define a dictionary; know how to add and updated elements in a dictionary; know how to access elements in a dictionary by key; know how to iterate over elements in a dictionary; know some basic dictionary functions.                                                                                                                                                                                                                                                                                                                                                                                                     |
-| `enums`                   | know of the existence of the `enum` keyword; know how to define enum members; know how to assign values to enum members; know how to get an enum's numeric value; know how to convert an `enum` to a `string`.;know of the existence of the `enum` keyword; know how to define enum members; know how to assign values to enum members; know how to get an enum's numeric value; know how to convert an `enum` to a `string`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| `equality`                | know how to check for equality and inequality; know how reference equality differs from structural equality; know that equality works by default for value and reference types; know how to customize equality checks using `Equals` and `GetHashCode()`; know of the `IEquatable<T>` and `IEqualityComparer<T>` interfaces and how to implement them.;know how to check for equality and inequality; know how reference equality differs from structural equality; know that equality works by default for value and reference types; know how to customize equality checks using `Equals` and `GetHashCode()`; know of the `IEquatable<T>` and `IEqualityComparer<T>` interfaces and how to implement them.                                                                                                                                                                                                                                                                                               |
-| `flag-enums`              | know how to define a "flags" enum; know how to add, remove or check for flags; know how to change the underlying type of an enum.;know how to define a "flags" enum; know how to add, remove or check for flags; know how to change the underlying type of an enum.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| `floating-point-numbers`  | know of the existing of the three floating point types: `double`, `float` and `decimal`. know when to use which floating point type.;know of the existing of the three floating point types: `double`, `float` and `decimal`. know when to use which floating point type.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| `for-loops`               | know how to use a `for` loop to do iteration.;know how to use a `for` loop to do iteration.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| `foreach-loops`           | know how to iterate over a collection.;know how to iterate over a collection.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| `inheritance`             | know what inheritance is; know how to inherit from a class; know that all types inherit from `object`; know what abstract and sealed classes are; know what abstract and virtual methods are; know how to override methods; know about the `protected` visibility modifier.;know what inheritance is; know how to inherit from a class; know that all types inherit from `object`; know what abstract and sealed classes are; know what abstract and virtual methods are; know how to override methods; know about the `protected` visibility modifier.                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| `interfaces`              | know what interfaces are; know how to use interfaces; know how to define an interface; know how to implement an interface; know how to explicitly implement an interface.;know what interfaces are; know how to use interfaces; know how to define an interface; know how to implement an interface; know how to explicitly implement an interface.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| `lists`                   | know of the existence of the `List<T>` type; know how a list is different from an array; know how to define a list; know how to add and remove elements from a list; know how to access elements in a list by their index; know how to iterate over elements in a list; know some basic list functions (like finding the index of an element in a list).;know of the existence of the `List<T>` type; know how a list is different from an array; know how to define a list; know how to add and remove elements from a list; know how to access elements in a list by their index; know how to iterate over elements in a list; know some basic list functions (like finding the index of an element in a list).                                                                                                                                                                                                                                                                                           |
-| `method-overloading`      | know what method overloading is; know how to define overloaded methods; know the limitations of method overloading;know what method overloading is; know how to define overloaded methods; know the limitations of method overloading                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| `named-arguments`         | know how to use named arguments;know how to use named arguments                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| `namespaces`              | know what namespaces are; know how to import namespaces.;know what namespaces are; know how to import namespaces.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| `numbers`                 | know of the existence of the two most commonly used number types, `int` and `double`; understand that the former represents whole numbers, and the latter floating-point numbers; know of basic operators such as multiplication, comparison and equality; know how to convert from one numeric type to another; know what implicit and explicit conversions are.;know of the existence of the two most commonly used number types, `int` and `double`; understand that the former represents whole numbers, and the latter floating-point numbers; know of basic operators such as multiplication, comparison and equality; know how to convert from one numeric type to another; know what implicit and explicit conversions are.                                                                                                                                                                                                                                                                         |
-| `numbers`                 | know of the existence of the two most commonly used number types, `int` and `double`; understand that the former represents whole numbers, and the latter floating-point numbers; know of basic operators such as multiplication, comparison and equality; know how to convert from one numeric type to another; know what implicit and explicit conversions are.;know of the existence of the two most commonly used number types, `int` and `double`; understand that the former represents whole numbers, and the latter floating-point numbers; know of basic operators such as multiplication, comparison and equality; know how to convert from one numeric type to another; know what implicit and explicit conversions are.                                                                                                                                                                                                                                                                         |
-| `object-initializers`     | Know how to initialize objects using object initialization syntax. Know how to initialize lists and dictionaries. Understand the relative advantages of constructors and initializers.;Know how to initialize objects using object initialization syntax. Know how to initialize lists and dictionaries. Understand the relative advantages of constructors and initializers.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| `parameters`              | know the difference between value and reference type parameters; know how to pass value types by reference using the `ref` and `out` modifiers.;know the difference between value and reference type parameters; know how to pass value types by reference using the `ref` and `out` modifiers.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| `properties`              | know what properties are and how they relate to fields and methods; know what backing-field properties are; know what auto-implemented properties are; know what calculated properties are; know how to use property accessors to customize visibility; know how to define the different types of properties.;know what properties are and how they relate to fields and methods; know what backing-field properties are; know what auto-implemented properties are; know what calculated properties are; know how to use property accessors to customize visibility; know how to define the different types of properties.                                                                                                                                                                                                                                                                                                                                                                                 |
-| `randomness`              | know how to implement randomness with `System.Random` in C#; know that no seed is required; know that both integers and real numbers can be generated; know that once generated random numbers can be easily used for many purposes (including non-numeric ones);know how to implement randomness with `System.Random` in C#; know that no seed is required; know that both integers and real numbers can be generated; know that once generated random numbers can be easily used for many purposes (including non-numeric ones)                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| `resource-cleanup`        | Know how to clean up resources with `IDisposable` in C# and .NET. Understand the difference between managedd and unmanaged resources and the role of `IDisposable`.;Know how to clean up resources with `IDisposable` in C# and .NET. Understand the difference between managedd and unmanaged resources and the role of `IDisposable`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| `sets`                    | Know how to use hash sets `HashSet<T>` as provided by the .NET BCL. Understand the relationship with `Object.GetHashCode()` and the performance charateristics of hash sets.;Know how to use hash sets `HashSet<T>` as provided by the .NET BCL. Understand the relationship with `Object.GetHashCode()` and the performance charateristics of hash sets.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| `string-formatting`       | know how to use the `ToString()` method to convert any object to a `string`; know how to use string interpolation on values of any type; know how to use default format strings to convert to standard output formats; know how to use custom format strings to convert to custom output formats; know that `string.Format` underlies string interpolation; know of the `StringBuilder` type and when to use it; know that string interpolation can interpolate any expression.;know how to use the `ToString()` method to convert any object to a `string`; know how to use string interpolation on values of any type; know how to use default format strings to convert to standard output formats; know how to use custom format strings to convert to custom output formats; know that `string.Format` underlies string interpolation; know of the `StringBuilder` type and when to use it; know that string interpolation can interpolate any expression.                                             |
-| `strings`                 | know of the existence of the `string` type; know of some basic functions (like looking up a character at a position, or slicing the string); know how to do basic string formatting.;know of the existence of the `string` type; know of some basic functions (like looking up a character at a position, or slicing the string); know how to do basic string formatting.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| `structs`                 | know what structs are; know how to define a `struct`; know how to add members to structs; know the differences between structs and classes.;know what structs are; know how to define a `struct`; know how to add members to structs; know the differences between structs and classes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| `time`                    | Know how to use `DateTime` when time-of-day is important. Understand the difference between local time and Universal Coordinated Time). Understand the role of `CultureInfo` in parsing times. Understand arithmetic with `DateTime`s.;Know how to use `DateTime` when time-of-day is important. Understand the difference between local time and Universal Coordinated Time). Understand the role of `CultureInfo` in parsing times. Understand arithmetic with `DateTime`s.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| `tuples`                  | know what a tuple is; know how to define a tuple; know how to name tuple fields; know that tuples have structural equality; know how to deconstruct tuples; know that tuples are mutable.;know what a tuple is; know how to define a tuple; know how to name tuple fields; know that tuples have structural equality; know how to deconstruct tuples; know that tuples are mutable.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| `user-defined-exceptions` | know how to define a user-defined exception.;know how to define a user-defined exception.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| `verbatim-strings`        | the syntax of verbatim strings.;the syntax of verbatim strings.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Concept                   | Learning Objectives                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `arrays`                  | <ul><li>know of the existence of the `Array` type<li>know how to define an array<li>know how to access elements in an array by index<li>know how to update an element in an array by index<li>know how to iterate over elements in an array<li>know of some basic functions (like finding the index of an element in an array).                                                                                                                                                                                                       |
+| `basics`                  | <ul><li>know what a variable is<li>know how to define a variable<li>know how to update a variable<li>know how to use type inference for variables<li>know how to define a method<li>know how to return a value from a method<li>know how to call a method<li>know that methods must be defined in classes<li>know about the `public` access modifier<li>know about the `static` modifier<li>know how to define an integer<li>know how to use mathematical operators on integers<li>know how to define single- and multiline comments. |
+| `booleans`                | <ul><li>know of the existence of the `bool` type and its two values<li>know about boolean operators and how to build logical expressions with them<li>know of the boolean operator precedence rules.                                                                                                                                                                                                                                                                                                                                  |
+| `booleans`                | <ul><li>know of the existence of the `bool` type and its two values<li>know about boolean operators and how to build logical expressions with them<li>know of the boolean operator precedence rules.                                                                                                                                                                                                                                                                                                                                  |
+| `casting`                 | <ul><li>know what explicit and implicit casts are<li>know how to do an explicit cast<li>know how to use `is` and `as` to convert between types.                                                                                                                                                                                                                                                                                                                                                                                       |
+| `chars`                   | <ul><li>know of the existence of the `char` type<li>know that a `char` represents<li>know how to define a `char`<li>know how to access a `char` in a string by index<li>know of some basic `char` methods (like converting to uppercase).                                                                                                                                                                                                                                                                                             |
+| `classes`                 | <ul><li>know what classes are<li>know what encapsulation is<li>know what fields are<li>know how to create an object<li>know how to update state through methods<li>know about the `void` type.                                                                                                                                                                                                                                                                                                                                        |
+| `conditionals`            | <ul><li>know how to conditionally execute code using an `if` statement.                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `constructors`            | <ul><li>know what constructors are<li>know how to define parameterless constructors<li>know how to define parameterized constructors<li>know how to use constructor overloading<li>know how to define private constructors.                                                                                                                                                                                                                                                                                                           |
+| `cross-platform`          | <ul><li>know how to have different code paths (selected at run-time) for Linux, Windows and Mac                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| `dictionaries`            | <ul><li>know of the existence of the `Dictionary<TKey, TElement>` type<li>know how to define a dictionary<li>know how to add and updated elements in a dictionary<li>know how to access elements in a dictionary by key<li>know how to iterate over elements in a dictionary<li>know some basic dictionary functions.                                                                                                                                                                                                                 |
+| `enums`                   | <ul><li>know of the existence of the `enum` keyword<li>know how to define enum members<li>know how to assign values to enum members<li>know how to get an enum's numeric value<li>know how to convert an `enum` to a `string`.                                                                                                                                                                                                                                                                                                        |
+| `equality`                | <ul><li>know how to check for equality and inequality<li>know how reference equality differs from structural equality<li>know that equality works by default for value and reference types<li>know how to customize equality checks using `Equals` and `GetHashCode()`<li>know of the `IEquatable<T>` and `IEqualityComparer<T>` interfaces and how to implement them.                                                                                                                                                                |
+| `flag-enums`              | <ul><li>know how to define a "flags" enum<li>know how to add, remove or check for flags<li>know how to change the underlying type of an enum.                                                                                                                                                                                                                                                                                                                                                                                         |
+| `floating-point-numbers`  | <ul><li>know of the existing of the three floating point types: `double`, `float` and `decimal`. know when to use which floating point type.                                                                                                                                                                                                                                                                                                                                                                                          |
+| `for-loops`               | <ul><li>know how to use a `for` loop to do iteration.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| `foreach-loops`           | <ul><li>know how to iterate over a collection.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `inheritance`             | <ul><li>know what inheritance is<li>know how to inherit from a class<li>know that all types inherit from `object`<li>know what abstract and sealed classes are<li>know what abstract and virtual methods are<li>know how to override methods<li>know about the `protected` visibility modifier.                                                                                                                                                                                                                                       |
+| `interfaces`              | <ul><li>know what interfaces are; know how to use interfaces; know how to define an interface; know how to implement an interface; know how to explicitly implement an interface.                                                                                                                                                                                                                                                                                                                                                     |
+| `lists`                   | <ul><li>know of the existence of the `List<T>` type<li>know how a list is different from an array<li>know how to define a list<li>know how to add and remove elements from a list<li>know how to access elements in a list by their index<li>know how to iterate over elements in a list<li>know some basic list functions (like finding the index of an element in a list).                                                                                                                                                          |
+| `method-overloading`      | <ul><li>know what method overloading is<li>know how to define overloaded methods<li>know the limitations of method overloading                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `named-arguments`         | <ul><li>know how to use named arguments                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `namespaces`              | <ul><li>know what namespaces are<li>know how to import namespaces.                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| `numbers`                 | <ul><li>know of the existence of the two most commonly used number types, `int` and `double`<li>understand that the former represents whole numbers, and the latter floating-point numbers<li>know of basic operators such as multiplication, comparison and equality<li>know how to convert from one numeric type to another<li>know what implicit and explicit conversions are.                                                                                                                                                     |
+| `numbers`                 | <ul><li>know of the existence of the two most commonly used number types, `int` and `double`<li>understand that the former represents whole numbers, and the latter floating-point numbers<li>know of basic operators such as multiplication, comparison and equality<li>know how to convert from one numeric type to another<li>know what implicit and explicit conversions are.                                                                                                                                                     |
+| `object-initializers`     | <ul><li>Know how to initialize objects using object initialization syntax. Know how to initialize lists and dictionaries. Understand the relative advantages of constructors and initializers.                                                                                                                                                                                                                                                                                                                                        |
+| `parameters`              | <ul><li>know the difference between value and reference type parameters<li>know how to pass value types by reference using the `ref` and `out` modifiers.                                                                                                                                                                                                                                                                                                                                                                             |
+| `properties`              | <ul><li>know what properties are and how they relate to fields and methods<li>know what backing-field properties are<li>know what auto-implemented properties are<li>know what calculated properties are<li>know how to use property accessors to customize visibility<li>know how to define the different types of properties.                                                                                                                                                                                                       |
+| `randomness`              | <ul><li>know how to implement randomness with `System.Random` in C#<li>know that no seed is required<li>know that both integers and real numbers can be generated<li>know that once generated random numbers can be easily used for many purposes (including non-numeric ones)                                                                                                                                                                                                                                                        |
+| `resource-cleanup`        | <ul><li>Know how to clean up resources with `IDisposable` in C# and .NET. Understand the difference between managedd and unmanaged resources and the role of `IDisposable`.                                                                                                                                                                                                                                                                                                                                                           |
+| `sets`                    | <ul><li>Know how to use hash sets `HashSet<T>` as provided by the .NET BCL. Understand the relationship with `Object.GetHashCode()` and the performance charateristics of hash sets.                                                                                                                                                                                                                                                                                                                                                  |
+| `string-formatting`       | <ul><li>know how to use the `ToString()` method to convert any object to a `string`<li>know how to use string interpolation on values of any type<li>know how to use default format strings to convert to standard output formats<li>know how to use custom format strings to convert to custom output formats<li>know that `string.Format` underlies string interpolation<li>know of the `StringBuilder` type and when to use it<li>know that string interpolation can interpolate any expression.                                   |
+| `strings`                 | <ul><li>know of the existence of the `string` type<li>know of some basic functions (like looking up a character at a position, or slicing the string)<li>know how to do basic string formatting.                                                                                                                                                                                                                                                                                                                                      |
+| `structs`                 | <ul><li>know what structs are<li>know how to define a `struct`<li>know how to add members to structs<li>know the differences between structs and classes.                                                                                                                                                                                                                                                                                                                                                                             |
+| `time`                    | <ul><li>Know how to use `DateTime` when time-of-day is important. Understand the difference between local time and Universal Coordinated Time). Understand the role of `CultureInfo` in parsing times. Understand arithmetic with `DateTime`s.                                                                                                                                                                                                                                                                                        |
+| `tuples`                  | <ul><li>know what a tuple is<li>know how to define a tuple<li>know how to name tuple fields<li>know that tuples have structural equality<li>know how to deconstruct tuples<li>know that tuples are mutable.                                                                                                                                                                                                                                                                                                                           |
+| `user-defined-exceptions` | <ul><li>know how to define a user-defined exception.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| `verbatim-strings`        | <ul><li>the syntax of verbatim strings.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 
 [design-arrays]: https://github.com/exercism/v3/blob/master/languages/csharp/exercises/concept/arrays/.meta/design.md
 [issue-attributes-advanced]: https://github.com/exercism/v3/issues/1176
@@ -249,38 +257,67 @@ and learning objectives are scraped from the concept definition text in each exe
 [design-tuples]: https://github.com/exercism/v3/blob/master/languages/csharp/exercises/concept/tuples/.meta/design.md
 [design-user-defined-exceptions]: https://github.com/exercism/v3/blob/master/languages/csharp/exercises/concept/user-defined-exceptions/.meta/design.md
 [design-user-defined-exceptions2]: https://github.com/exercism/v3/blob/master/languages/csharp/exercises/concept/user-defined-exceptions/.meta/design.md
-[tnc-arrays]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/types/array.md
-[tnc-booleans]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/types/boolean.md
-[tnc-chars]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/types/char.md
-[tnc-classes]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/concepts/classes.md
-[tnc-conditionals-if]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/concepts/conditionals.md
-[tnc-conditionals-ternary]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/concepts/conditionals.md
-[tnc-dictionaries]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/types/map.md
-[tnc-encapsulation]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/concepts/encapsulation.md
-[tnc-equality]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/concepts/sameness.md
-[tnc-for-loops]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/concepts/enumeration.md
-[tnc-foreach-loops]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/concepts/enumeration.md
-[tnc-functions]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/types/function.md
-[tnc-higherl-order-functions]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/concepts/higher_order_functions.md
-[tnc-immutability]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/concepts/immutability.md
-[tnc-inheritance]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/concepts/inheritance.md
-[tnc-interfaces]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/concepts/interfaces.md
-[tnc-lambdas]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/concepts/anonymous_functions.md
-[tnc-linq]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/concepts/pipelines.md
-[tnc-lists]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/types/list.md
-[tnc-local-functions]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/concepts/nested_functions.md
-[tnc-memory-allocation]: https://github.com/mikedamay/v3/tree/csharp/interfaces/memory_allocation
-[tnc-mutation]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/concepts/mutation.md
-[tnc-objects]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/concepts/objects.md
-[tnc-optional-arguments]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/concepts/default_arguments.md
-[tnc-polymorphism]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/concepts/polymorphism.md
-[tnc-queues]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/types/deque.md
-[tnc-ranges]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/types/range.md
-[tnc-recursion]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/concepts/recursion.md
-[tnc-sets]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/types/set.md
-[tnc-stacks]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/types/stack.md
-[tnc-state]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/concepts/state.md
-[tnc-strings]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/types/string.md
-[tnc-tuples]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/types/tuple.md
-[tnc-type-inference]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/concepts/type_inference.md
-[tnc-variables]: https://github.com/mikedamay/v3/tree/csharp/interfaces/reference/concepts/variables.md
+
+[exercise-arrays]: ../exercises/concept/arrays
+[exercise-basics]: ../exercises/concept/basics
+[exercise-booleans]: ../exercises/concept/booleans
+[exercise-chars]: ../exercises/concept/chars
+[exercise-classes]: ../exercises/concept/classes
+[exercise-conditionals-switch]: ../exercises/concept/conditionals-switch
+[exercise-constructors]: ../exercises/concept/constructors
+[exercise-dates]: ../exercises/concept/dates
+[exercise-dictionaries]: ../exercises/concept/dictionaries
+[exercise-enums]: ../exercises/concept/enums
+[exercise-equality]: ../exercises/concept/equality
+[exercise-flag-enums]: ../exercises/concept/flag-enums
+[exercise-floating-point-numbers]: ../exercises/concept/floating-point-numbers
+[exercise-inheritance]: ../exercises/concept/inheritance
+[exercise-method-overloading]: ../exercises/concept/method-overloading
+[exercise-null]: ../exercises/concept/null
+[exercise-numbers]: ../exercises/concept/numbers
+[exercise-object-initializers]: ../exercises/concept/object-initializers
+[exercise-parameters]: ../exercises/concept/parameters
+[exercise-properties]: ../exercises/concept/properties
+[exercise-randomness]: ../exercises/concept/randomness
+[exercise-resource-cleanup]: ../exercises/concept/resource-cleanup
+[exercise-strings]: ../exercises/concept/strings
+[exercise-time]: ../exercises/concept/time
+[exercise-tuples]: ../exercises/concept/tuples
+[exercise-user-defined-exceptions]: ../exercises/concept/user-defined-exceptions
+[exercise-user-defined-exceptions2]: ../exercises/concept/user-defined-exceptions2
+
+[tnc-arrays]: ./../../../reference/types/array.md
+[tnc-booleans]: ./../../../reference/types/boolean.md
+[tnc-chars]: ./../../../reference/types/char.md
+[tnc-classes]: ./../../../reference/concepts/classes.md
+[tnc-conditionals-if]: ./../../../reference/concepts/conditionals.md
+[tnc-conditionals-ternary]: ./../../../reference/concepts/conditionals.md
+[tnc-dictionaries]: ./../../../reference/types/map.md
+[tnc-encapsulation]: ./../../../reference/concepts/encapsulation.md
+[tnc-equality]: ./../../../reference/concepts/sameness.md
+[tnc-for-loops]: ./../../../reference/concepts/enumeration.md
+[tnc-foreach-loops]: ./../../../reference/concepts/enumeration.md
+[tnc-functions]: ./../../../reference/types/function.md
+[tnc-higherl-order-functions]: ./../../../reference/concepts/higher_order_functions.md
+[tnc-immutability]: ./../../../reference/concepts/immutability.md
+[tnc-inheritance]: ./../../../reference/concepts/inheritance.md
+[tnc-interfaces]: ./../../../reference/concepts/interfaces.md
+[tnc-lambdas]: ./../../../reference/concepts/anonymous_functions.md
+[tnc-linq]: ./../../../reference/concepts/pipelines.md
+[tnc-lists]: ./../../../reference/types/list.md
+[tnc-local-functions]: ./../../../reference/concepts/nested_functions.md
+[tnc-memory-allocation]: ./../../../memory_allocation
+[tnc-mutation]: ./../../../reference/concepts/mutation.md
+[tnc-objects]: ./../../../reference/concepts/objects.md
+[tnc-optional-arguments]: ./../../../reference/concepts/default_arguments.md
+[tnc-polymorphism]: ./../../../reference/concepts/polymorphism.md
+[tnc-queues]: ./../../../reference/types/deque.md
+[tnc-ranges]: ./../../../reference/types/range.md
+[tnc-recursion]: ./../../../reference/concepts/recursion.md
+[tnc-sets]: ./../../../reference/types/set.md
+[tnc-stacks]: ./../../../reference/types/stack.md
+[tnc-state]: ./../../../reference/concepts/state.md
+[tnc-strings]: ./../../../reference/types/string.md
+[tnc-tuples]: ./../../../reference/types/tuple.md
+[tnc-type-inference]: ./../../../reference/concepts/type_inference.md
+[tnc-variables]: ./../../../reference/concepts/variables.md

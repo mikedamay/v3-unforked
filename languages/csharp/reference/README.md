@@ -16,16 +16,16 @@ _(Please do not modify this document. it is automatically generated. All text ex
 - basics [_(basics)_][exercise-basics] - [Design][design-basics]
 - booleans [_(booleans)_][exercise-booleans] - [Design][design-booleans], [Background][tnc-booleans]
 - booleans [_(booleans)_][exercise-booleans] - [Design][design-booleans]
-- casting [_(casting)_][exercise-casting] - [Issue][issue-casting]
+- casting _(casting)_ - [Issue][issue-casting]
 - chars [_(chars)_][exercise-chars] - [Design][design-chars], [Background][tnc-chars]
 - classes [_(classes)_][exercise-classes] - [Design][design-classes], [Background][tnc-classes]
-- collections [_(lists)_][exercise-lists] - [Issue][issue-lists]
+- collections _(lists)_ - [Issue][issue-lists]
 - comments [_(basics)_][exercise-basics] - [Design][design-basics]
 - conditionals [_(numbers)_][exercise-numbers] - [Design][design-numbers]
 - conditionals-switch [_(conditionals-switch)_][exercise-conditionals-switch] - [Design][design-conditionals-switch]
-- conditionals-ternary [_(conditionals-ternary)_][exercise-conditionals-ternary] - [Issue][issue-conditionals-ternary], [Background][tnc-conditionals-ternary]
+- conditionals-ternary _(conditionals-ternary)_ - [Issue][issue-conditionals-ternary], [Background][tnc-conditionals-ternary]
 - conditionals-while [_(floating-point-numbers)_][exercise-floating-point-numbers] - [Design][design-floating-point-numbers]
-- constants [_(constants)_][exercise-constants] - [Issue][issue-constants]
+- constants _(constants)_ - [Issue][issue-constants]
 - constructors [_(constructors)_][exercise-constructors] - [Design][design-constructors]
 - cross-platform [_(time)_][exercise-time] - [Design][design-time]
 - dates [_(dates)_][exercise-dates] - [Design][design-dates]
@@ -34,29 +34,29 @@ _(Please do not modify this document. it is automatically generated. All text ex
 - encapsulation [_(classes)_][exercise-classes] - [Design][design-classes], [Background][tnc-encapsulation]
 - enums [_(enums)_][exercise-enums] - [Design][design-enums]
 - equality [_(equality)_][exercise-equality] - [Design][design-equality], [Background][tnc-equality]
-- exceptions [_(exceptions)_][exercise-exceptions] - [Issue][issue-exceptions]
-- explicit-interfaces [_(interfaces)_][exercise-interfaces] - [Issue][issue-interfaces]
-- expression-bodied-members [_(expression-bodied-members)_][exercise-expression-bodied-members] - [Issue][issue-expression-bodied-members]
+- exceptions _(exceptions)_ - [Issue][issue-exceptions]
+- explicit-interfaces _(interfaces)_ - [Issue][issue-interfaces]
+- expression-bodied-members _(expression-bodied-members)_ - [Issue][issue-expression-bodied-members]
 - fields [_(classes)_][exercise-classes] - [Design][design-classes]
 - flag-enums [_(flag-enums)_][exercise-flag-enums] - [Design][design-flag-enums]
 - floating-point-numbers [_(floating-point-numbers)_][exercise-floating-point-numbers] - [Design][design-floating-point-numbers]
 - for-loops [_(arrays)_][exercise-arrays] - [Design][design-arrays], [Background][tnc-for-loops]
 - foreach-loops [_(arrays)_][exercise-arrays] - [Design][design-arrays], [Background][tnc-foreach-loops]
-- formatting-types [_(string-formatting)_][exercise-string-formatting] - [Issue][issue-string-formatting]
+- formatting-types _(string-formatting)_ - [Issue][issue-string-formatting]
 - functions [_(basics)_][exercise-basics] - [Design][design-basics], [Background][tnc-functions]
-- implicit-casting [_(casting)_][exercise-casting] - [Issue][issue-casting]
-- imports [_(namespaces)_][exercise-namespaces] - [Issue][issue-namespaces]
+- implicit-casting _(casting)_ - [Issue][issue-casting]
+- imports _(namespaces)_ - [Issue][issue-namespaces]
 - inheritance [_(inheritance)_][exercise-inheritance] - [Design][design-inheritance], [Background][tnc-inheritance]
-- interfaces [_(interfaces)_][exercise-interfaces] - [Issue][issue-interfaces], [Background][tnc-interfaces]
-- interpolation [_(string-formatting)_][exercise-string-formatting] - [Issue][issue-string-formatting]
-- lists [_(lists)_][exercise-lists] - [Issue][issue-lists], [Background][tnc-lists]
+- interfaces _(interfaces)_ - [Issue][issue-interfaces], [Background][tnc-interfaces]
+- interpolation _(string-formatting)_ - [Issue][issue-string-formatting]
+- lists _(lists)_ - [Issue][issue-lists], [Background][tnc-lists]
 - marker-interfaces [_(equality)_][exercise-equality] - [Design][design-equality]
 - math-operators [_(numbers)_][exercise-numbers] - [Design][design-numbers]
 - method-overloading [_(method-overloading)_][exercise-method-overloading] - [Design][design-method-overloading]
 - mutation [_(basics)_][exercise-basics] - [Design][design-basics], [Background][tnc-mutation]
 - named-arguments [_(parameters)_][exercise-parameters] - [Design][design-parameters]
-- namespaces [_(namespaces)_][exercise-namespaces] - [Issue][issue-namespaces]
-- nested-types [_(nested-types)_][exercise-nested-types] - [Issue][issue-nested-types]
+- namespaces _(namespaces)_ - [Issue][issue-namespaces]
+- nested-types _(nested-types)_ - [Issue][issue-nested-types]
 - null [_(null)_][exercise-null] - [Design][design-null]
 - null-coalescing [_(null)_][exercise-null] - [Design][design-null]
 - null-conditional [_(null)_][exercise-null] - [Design][design-null]
@@ -66,103 +66,103 @@ _(Please do not modify this document. it is automatically generated. All text ex
 - numbers [_(numbers)_][exercise-numbers] - [Design][design-numbers]
 - object-initializers [_(object-initializers)_][exercise-object-initializers] - [Design][design-object-initializers]
 - objects [_(classes)_][exercise-classes] - [Design][design-classes], [Background][tnc-objects]
-- operator-overload [_(operator-overload)_][exercise-operator-overload] - [Issue][issue-operator-overload]
+- operator-overload _(operator-overload)_ - [Issue][issue-operator-overload]
 - optional-arguments [_(parameters)_][exercise-parameters] - [Design][design-parameters], [Background][tnc-optional-arguments]
 - out-parameters [_(parameters)_][exercise-parameters] - [Design][design-parameters]
-- overflow [_(overflow)_][exercise-overflow] - [Issue][issue-overflow]
+- overflow _(overflow)_ - [Issue][issue-overflow]
 - parameters [_(parameters)_][exercise-parameters] - [Design][design-parameters]
 - polymorphism [_(inheritance)_][exercise-inheritance] - [Design][design-inheritance], [Background][tnc-polymorphism]
 - properties [_(properties)_][exercise-properties] - [Design][design-properties]
 - randomness [_(randomness)_][exercise-randomness] - [Design][design-randomness]
-- regular-expressions [_(regular-expressions)_][exercise-regular-expressions] - [Issue][issue-regular-expressions]
+- regular-expressions _(regular-expressions)_ - [Issue][issue-regular-expressions]
 - resource-cleanup [_(resource-cleanup)_][exercise-resource-cleanup] - [Design][design-resource-cleanup]
-- resource-lifetime [_(resource-lifetime)_][exercise-resource-lifetime] - [Issue][issue-resource-lifetime]
+- resource-lifetime _(resource-lifetime)_ - [Issue][issue-resource-lifetime]
 - return-values [_(basics)_][exercise-basics] - [Design][design-basics]
 - scoping [_(basics)_][exercise-basics] - [Design][design-basics]
 - sets [_(equality)_][exercise-equality] - [Design][design-equality], [Background][tnc-sets]
-- signed-integers [_(signed-integers)_][exercise-signed-integers] - [Issue][issue-signed-integers]
+- signed-integers _(signed-integers)_ - [Issue][issue-signed-integers]
 - state [_(classes)_][exercise-classes] - [Design][design-classes], [Background][tnc-state]
-- string-builder [_(string-formatting)_][exercise-string-formatting] - [Issue][issue-string-formatting]
-- string-formatting [_(string-formatting)_][exercise-string-formatting] - [Issue][issue-string-formatting]
+- string-builder _(string-formatting)_ - [Issue][issue-string-formatting]
+- string-formatting _(string-formatting)_ - [Issue][issue-string-formatting]
 - strings [_(strings)_][exercise-strings] - [Design][design-strings], [Background][tnc-strings]
-- structs [_(structs)_][exercise-structs] - [Issue][issue-structs]
+- structs _(structs)_ - [Issue][issue-structs]
 - time [_(time)_][exercise-time] - [Design][design-time]
 - tuples [_(tuples)_][exercise-tuples] - [Design][design-tuples], [Background][tnc-tuples]
 - type-inference [_(basics)_][exercise-basics] - [Design][design-basics], [Background][tnc-type-inference]
-- unsigned-integers [_(signed-integers)_][exercise-signed-integers] - [Issue][issue-signed-integers]
+- unsigned-integers _(signed-integers)_ - [Issue][issue-signed-integers]
 - user-defined-exceptions [_(user-defined-exceptions)_][exercise-user-defined-exceptions] - [Design][design-user-defined-exceptions]
 - user-defined-exceptions2 [_(user-defined-exceptions2)_][exercise-user-defined-exceptions2] - [Design][design-user-defined-exceptions2]
 - variables [_(basics)_][exercise-basics] - [Design][design-basics], [Background][tnc-variables]
-- verbatim-strings [_(string-formatting)_][exercise-string-formatting] - [Issue][issue-string-formatting]
+- verbatim-strings _(string-formatting)_ - [Issue][issue-string-formatting]
 - visibility [_(classes)_][exercise-classes] - [Design][design-classes]
 
 ### Essential Concepts
 
-- anonymous-types [_(anonymous-types)_][exercise-anonymous-types]
-- async [_(async)_][exercise-async]
-- attributes-advanced [_(attributes-advanced)_][exercise-attributes-advanced] - [Issue][issue-attributes-advanced]
-- collections-combining [_(linq)_][exercise-linq]
-- collections-filtering [_(linq)_][exercise-linq]
-- collections-mapping [_(linq)_][exercise-linq]
-- collections-ordering [_(linq)_][exercise-linq]
-- collections-reduciing [_(linq)_][exercise-linq]
-- contravariance [_(contravariance)_][exercise-contravariance]
-- covariance [_(covariance)_][exercise-covariance]
-- delegates [_(delegates)_][exercise-delegates]
-- enumerables [_(enumerables)_][exercise-enumerables]
-- events [_(events)_][exercise-events]
-- extension-methods [_(extension-methods)_][exercise-extension-methods] - [Issue][issue-extension-methods]
-- generics-advanced [_(generics-advanced)_][exercise-generics-advanced]
-- higherl-order-functions [_(higherl-order-functions)_][exercise-higherl-order-functions] - [Background][tnc-higherl-order-functions]
-- indexers [_(indexers)_][exercise-indexers]
-- lambdas [_(lambdas)_][exercise-lambdas] - [Background][tnc-lambdas]
-- linq [_(linq)_][exercise-linq] - [Background][tnc-linq]
-- linq-advanced [_(linq-advanced)_][exercise-linq-advanced]
-- linq-query-syntax [_(linq-query-syntax)_][exercise-linq-query-syntax]
-- linq-select-many [_(linq-select-many)_][exercise-linq-select-many]
-- locks [_(locks)_][exercise-locks]
-- pattern-matching-tuples [_(pattern-matching-tuples)_][exercise-pattern-matching-tuples] - [Issue][issue-pattern-matching-tuples]
-- pattern-matching-types [_(pattern-matching-types)_][exercise-pattern-matching-types] - [Issue][issue-pattern-matching-types]
-- recursion [_(recursion)_][exercise-recursion] - [Background][tnc-recursion]
-- reflection [_(reflection)_][exercise-reflection]
-- serialization [_(serialization)_][exercise-serialization]
-- statics [_(statics)_][exercise-statics]
-- streams [_(streams)_][exercise-streams]
-- tasks [_(tasks)_][exercise-tasks]
-- thread-safety [_(thread-safety)_][exercise-thread-safety]
-- yield [_(yield)_][exercise-yield]
+- anonymous-types _(anonymous-types)_
+- async _(async)_
+- attributes-advanced _(attributes-advanced)_ - [Issue][issue-attributes-advanced]
+- collections-combining _(linq)_
+- collections-filtering _(linq)_
+- collections-mapping _(linq)_
+- collections-ordering _(linq)_
+- collections-reduciing _(linq)_
+- contravariance _(contravariance)_
+- covariance _(covariance)_
+- delegates _(delegates)_
+- enumerables _(enumerables)_
+- events _(events)_
+- extension-methods _(extension-methods)_ - [Issue][issue-extension-methods]
+- generics-advanced _(generics-advanced)_
+- higherl-order-functions _(higherl-order-functions)_ - [Background][tnc-higherl-order-functions]
+- indexers _(indexers)_
+- lambdas _(lambdas)_ - [Background][tnc-lambdas]
+- linq _(linq)_ - [Background][tnc-linq]
+- linq-advanced _(linq-advanced)_
+- linq-query-syntax _(linq-query-syntax)_
+- linq-select-many _(linq-select-many)_
+- locks _(locks)_
+- pattern-matching-tuples _(pattern-matching-tuples)_ - [Issue][issue-pattern-matching-tuples]
+- pattern-matching-types _(pattern-matching-types)_ - [Issue][issue-pattern-matching-types]
+- recursion _(recursion)_ - [Background][tnc-recursion]
+- reflection _(reflection)_
+- serialization _(serialization)_
+- statics _(statics)_
+- streams _(streams)_
+- tasks _(tasks)_
+- thread-safety _(thread-safety)_
+- yield _(yield)_
 
 ### Advanced Concepts
 
-- aysnc-iterators [_(aysnc-iterators)_][exercise-aysnc-iterators]
-- boxing [_(boxing)_][exercise-boxing]
-- by-ref [_(by-ref)_][exercise-by-ref]
-- destructors [_(destructors)_][exercise-destructors]
-- dispose-pattern [_(dispose-pattern)_][exercise-dispose-pattern]
-- dynamic [_(dynamic)_][exercise-dynamic]
-- immutability [_(immutability)_][exercise-immutability] - [Background][tnc-immutability]
-- immutable-collections [_(immutable-collections)_][exercise-immutable-collections]
-- lazy<T> [_(lazy<T>)_][exercise-lazy<T>]
-- local-functions [_(local-functions)_][exercise-local-functions] - [Background][tnc-local-functions]
-- memory-allocation [_(memory-allocation)_][exercise-memory-allocation] - [Issue][issue-memory-allocation], [Background][tnc-memory-allocation]
-- multi-dimensional-array [_(multi-dimensional-array)_][exercise-multi-dimensional-array]
-- pointsers [_(pointsers)_][exercise-pointsers] - [Issue][issue-pointsers]
-- queues [_(queues)_][exercise-queues] - [Background][tnc-queues]
-- ranges [_(ranges)_][exercise-ranges] - [Background][tnc-ranges]
-- ref-local [_(ref-local)_][exercise-ref-local]
-- resource-pooling [_(resource-pooling)_][exercise-resource-pooling] - [Issue][issue-resource-pooling]
-- slicing [_(slicing)_][exercise-slicing]
-- stacks [_(stacks)_][exercise-stacks] - [Background][tnc-stacks]
-- time-zones [_(time-zones)_][exercise-time-zones]
-- unsafe-code [_(unsafe-code)_][exercise-unsafe-code]
+- aysnc-iterators _(aysnc-iterators)_
+- boxing _(boxing)_
+- by-ref _(by-ref)_
+- destructors _(destructors)_
+- dispose-pattern _(dispose-pattern)_
+- dynamic _(dynamic)_
+- immutability _(immutability)_ - [Background][tnc-immutability]
+- immutable-collections _(immutable-collections)_
+- lazy<T> _(lazy<T>)_
+- local-functions _(local-functions)_ - [Background][tnc-local-functions]
+- memory-allocation _(memory-allocation)_ - [Issue][issue-memory-allocation], [Background][tnc-memory-allocation]
+- multi-dimensional-array _(multi-dimensional-array)_
+- pointsers _(pointsers)_ - [Issue][issue-pointsers]
+- queues _(queues)_ - [Background][tnc-queues]
+- ranges _(ranges)_ - [Background][tnc-ranges]
+- ref-local _(ref-local)_
+- resource-pooling _(resource-pooling)_ - [Issue][issue-resource-pooling]
+- slicing _(slicing)_
+- stacks _(stacks)_ - [Background][tnc-stacks]
+- time-zones _(time-zones)_
+- unsafe-code _(unsafe-code)_
 
 ### Unallocated Concepts
 
-- bitwise-manipulation [_(unallocated-concepts)_][exercise-unallocated-concepts]
-- conditionals-do-while [_(unallocated-concepts)_][exercise-unallocated-concepts]
-- conditionals-if [_(unallocated-concepts)_][exercise-unallocated-concepts] - [Background][tnc-conditionals-if]
-- generics-introduction [_(unallocated-concepts)_][exercise-unallocated-concepts]
-- ordering [_(unallocated-concepts)_][exercise-unallocated-concepts]
+- bitwise-manipulation _(unallocated-concepts)_
+- conditionals-do-while _(unallocated-concepts)_
+- conditionals-if _(unallocated-concepts)_ - [Background][tnc-conditionals-if]
+- generics-introduction _(unallocated-concepts)_
+- ordering _(unallocated-concepts)_
 
 ## Learning Objectives
 

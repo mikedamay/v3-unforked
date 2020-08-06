@@ -1,4 +1,4 @@
-name: Update languages summary
+name: Update csharp exercise report
 
 on:
   workflow_dispatch:

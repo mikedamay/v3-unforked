@@ -2,11 +2,11 @@ name: Update csharp exercise report
 
 on:
   push:
-    branches:
-      - csharp/exercise-report
-    paths:
-      - 'languages/*/config.json'
-      - 'languages/*/exercises/**/design.md'
+#    branches:
+#      - csharp/exercise-report
+#    paths:
+#      - 'languages/*/config.json'
+#      - 'languages/*/exercises/**/design.md'
 
 jobs:
   update-csharp-exercises:

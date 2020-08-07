@@ -3,7 +3,7 @@ name: Update csharp exercise report
 on:
   push:
     branches:
-      - csharp/exercise-report
+      - 'csharp/exercise-report'
 #    paths:
 #      - 'languages/*/config.json'
 #      - 'languages/*/exercises/**/design.md'

@@ -10,7 +10,7 @@
 
 ## Concepts
 
-- `overflows`: explain xx integral number overflows; explain floating-point number overflows; know how to use `checked` and `unchecked` to deal with overflows.
+- `overflows`: explain xxx integral number overflows; explain floating-point number overflows; know how to use `checked` and `unchecked` to deal with overflows.
 
 ## Prerequisites
 

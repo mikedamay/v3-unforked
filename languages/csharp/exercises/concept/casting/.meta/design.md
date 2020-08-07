@@ -6,7 +6,7 @@
 - Know how to use the `typeof` operator.
 - Pattern matching on types.
 
-## Out of scope
+## Out of scope xx
 
 - Custom explicit and implicit cast operators.
 - Memory and performance characteristics.

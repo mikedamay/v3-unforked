@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # Update the csharp exercises document
-dotnet run -p .github/bin/csharp-exercises
+dotnet run -p .github/bin/csharp-exercise-report
 
 # Format the documents
 npx prettier@2.0.4 --write languages/csharp/reference/README.md languages/csharp/reference/exercises.json  languages/csharp/reference/exercise-errors.json

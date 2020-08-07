@@ -1,7 +1,7 @@
 name: ExRep
 
 on:
-  push
+  push:
 
 #  push:
 #    branches:

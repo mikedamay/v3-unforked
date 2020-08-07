@@ -24,6 +24,6 @@ jobs:
           dotnet-version: '3.1.201'
 
       - name: Update csharp exercises
-        run: .github/bin/csharp-exercises/update.sh
+        run: .github/bin/csharp-exercise-report/update.sh
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,9 @@
+{
+  "Errors": [
+    {
+      "Severity": "fatal",
+      "Message": "reading exercise.json file: Could not find file \u0027/home/runner/work/v3-unforked/v3-unforked/languages/csharp/reference/exercises.json\u0027.",
+      "Source": "process"
+    }
+  ]
+}

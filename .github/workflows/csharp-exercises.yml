@@ -5,7 +5,7 @@ on:
     branches:
       - 'csharp/exercise-report'
     paths:
-      - 'languages/**/config.json'
+      - 'languages/**/exercises.json'
       - 'languages/*/exercises/**/design.md'
 
 jobs:

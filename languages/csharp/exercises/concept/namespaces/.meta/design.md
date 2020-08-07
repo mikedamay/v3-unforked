@@ -10,7 +10,7 @@
 ## Concepts
 
 - `namespaces`: know what namespaces are; know how to import namespaces.
-- `accessibility`: know how to use access modifiers to limit access to elements.
+- `accessibility`: know how xx to use access modifiers to limit access to elements.
 
 ## Prerequisites
 

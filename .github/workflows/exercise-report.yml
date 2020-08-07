@@ -1,7 +1,7 @@
-name: CI
+name: CI42
 
 on:
-  workflow_dispatch:
+  push:
 
 #  push:
 #    branches:

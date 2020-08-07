@@ -1,14 +1,12 @@
 name: Update csharp exercise report
 
 on:
-  workflow_dispatch
-
-#  push:
-#    branches:
-#      - master
-#    paths:
-#      - 'languages/*/config.json'
-#      - 'languages/*/exercises/**'
+  push:
+    branches:
+      - csharp/exercise-report
+    paths:
+      - 'languages/*/config.json'
+      - 'languages/*/exercises/**/design.md'
 
 jobs:
   update-csharp-exercises:

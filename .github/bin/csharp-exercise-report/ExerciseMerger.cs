@@ -30,13 +30,13 @@ namespace ExerciseReport
 
         public void MergeInLearningObjectives()
         {
-            var outputs = MergeLearningObjectives();
-            exerciseFileHandler.WriteExercises(outputs.result,
-                outputs.exerciseObjectTree, outputs.errors);
+            var mergeResults = Merge();
+            exerciseFileHandler.WriteExercises(mergeResults.result,
+                mergeResults.exerciseObjectTree, mergeResults.errors);
         }
 
         public (Result result, ExerciseObjectTree exerciseObjectTree, List<Error> errors) 
-            MergeLearningObjectives()
+            Merge()
         {
             var outputs = exerciseFileHandler.ReadExercises();
             if (outputs.result == Result.FatalError)
@@ -45,10 +45,32 @@ namespace ExerciseReport
             }
             var learningObjectives = designDocCollator.GetAllLearningObjectivesForTrack(track);
             MergeLearningObjectives(outputs.exerciseObjectTree, learningObjectives.learningObjectives);
-            var combinedErrors = outputs.errors.Concat(learningObjectives.errors).ToList();
+            var unmatchedConcepts = ReportUnmatchedConcepts(outputs.exerciseObjectTree, learningObjectives.learningObjectives);
+            var combinedErrors = outputs.errors.Concat(learningObjectives.errors).Concat(unmatchedConcepts).ToList();
             var maxSeverity = combinedErrors.Select(e => e.Severity).DefaultIfEmpty(Severity.None).Max();
             Result result = SeverityToResult(maxSeverity);
             return (result, outputs.exerciseObjectTree, combinedErrors);
+        }
+
+        private List<Error> ReportUnmatchedConcepts(ExerciseObjectTree exerciseObjectTree,
+            LearningObjectives learningObjectives)
+        {
+            var exerciseMap = exerciseObjectTree.Exercises
+                .SelectMany(ex =>  ex.Concepts)
+                .Select(con => con.Name)
+                .ToHashSet();
+            
+            List<Error> errors = new List<Error>();
+            foreach ((string DocId, string ConceptName) conceptDetails in learningObjectives.ConceptsInclDocId)
+            {
+                if (!exerciseMap.Contains(conceptDetails.ConceptName))
+                {
+                    errors.Add(new Error(ErrorSource.Merge, Severity.Error,
+                        $"Failed to find concept {conceptDetails.ConceptName} from {conceptDetails.DocId} in exercises.json file"));
+                }
+            }
+
+            return errors;
         }
 
         private Result SeverityToResult(Severity severity) =>
@@ -66,7 +88,7 @@ namespace ExerciseReport
             var concepts = exerciseObjectTree.Exercises.SelectMany(ex => ex.Concepts);
             foreach (Concept concept in concepts)
             {
-                var objectives = learningObjectives.GetList(concept.Name);
+                var objectives = learningObjectives.GetObjectivesForConcept(concept.Name);
                 if (objectives != null)
                 {
                     concept.LearningObjectives.Clear();
